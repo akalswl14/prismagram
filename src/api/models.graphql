@@ -69,6 +69,7 @@ type Message {
   updatedAt: String!
 }
 type UserProfile {
+  id: ID!
   user: User!
   posts: [Post!]!
   createdAt: String!
